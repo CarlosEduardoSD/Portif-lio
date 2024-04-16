@@ -36,6 +36,16 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.cabecalho__menu__item:hover { 
+    background-color: var(--cor--hoverRede);
+    transform: scale(0.96);
+    border-radius: 20px;
+    color: black;
 }
 
 .apresentacao {
@@ -99,10 +109,13 @@ body {
     text-align: center;
     text-decoration: none;
     width: 50%;
+    transition: .2s
 }
 
 .apresentacao__imagem {
     width: 50%;
+    border: 2px solid var(--cor--secundaria);
+    border-radius: 100%
 }
 
 .rodape {
@@ -125,6 +138,8 @@ body {
 
 .apresentacao__texto__divLink__social:hover {
     background-color: var(--cor--hoverRede);
+    transform: scale(0.96);
+    color: black;
 }
 
 @media (max-width: 1200px) {
